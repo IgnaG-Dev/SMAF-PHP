@@ -24,7 +24,75 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <!--google material icon-->
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="icon" type="image/png" href="../../backend/img/favicon.webp" />
+
+    <style>
+        /* Estilos personalizados para los botones de exportación */
+        .dataTables_wrapper .btn-warning {
+            background-color: #ff9800;
+            /* Cambia el color de fondo */
+            border-color: #ff9800;
+            /* Cambia el color del borde */
+            color: #ffffff !important;
+            /* Cambia el color del texto (important para sobrescribir estilos de DataTables) */
+        }
+
+        .dataTables_wrapper .btn-warning:hover {
+            background-color: #ff7700;
+            /* Cambia el color de fondo al pasar el mouse */
+            border-color: #ff7700;
+            /* Cambia el color del borde al pasar el mouse */
+        }
+
+        /* Estilos para el botón CSV */
+        .dataTables_wrapper .btn-csv {
+            background-color: #4caf50;
+            border-color: #4caf50;
+            color: #ffffff !important;
+        }
+
+        .dataTables_wrapper .btn-csv:hover {
+            background-color: #388e3c;
+            border-color: #388e3c;
+        }
+
+        /* Estilos para el botón Excel */
+        .dataTables_wrapper .btn-excel {
+            background-color: #2196f3;
+            border-color: #2196f3;
+            color: #ffffff !important;
+        }
+
+        .dataTables_wrapper .btn-excel:hover {
+            background-color: #1565c0;
+            border-color: #1565c0;
+        }
+
+        /* Estilos para el botón PDF */
+        .dataTables_wrapper .btn-pdf {
+            background-color: #e91e63;
+            border-color: #e91e63;
+            color: #ffffff !important;
+        }
+
+        .dataTables_wrapper .btn-pdf:hover {
+            background-color: #c2185b;
+            border-color: #c2185b;
+        }
+
+        /* Estilos para el botón Imprimir */
+        .dataTables_wrapper .btn-print {
+            background-color: #607d8b;
+            border-color: #607d8b;
+            color: #ffffff !important;
+        }
+
+        .dataTables_wrapper .btn-print:hover {
+            background-color: #455a64;
+            border-color: #455a64;
+        }
+    </style>
 </head>
 
 <body>
@@ -38,7 +106,7 @@
                 <h3><img src="../../backend/img/favicon.webp" class="img-fluid" /><span>SMAF GYM</span></h3>
             </div>
             <ul class="list-unstyled components">
-                <li class="active">
+                <li>
                     <a href="../administrador/escritorio.php" class="dashboard"><i class="material-icons">dashboard</i><span>Panel administrativo</span></a>
                 </li>
 

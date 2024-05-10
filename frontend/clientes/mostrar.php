@@ -70,7 +70,7 @@ if (!isset($_SESSION['rol']) || $_SESSION['rol'] != 1) {
                             <p class="category">Nuevas clientes reciente añadidos el dia de hoy</p>
                         </div>
                         <br>
-                        <a href="../clientes/nuevo.php" class="btn btn-danger text-white">Nuevo cliente</a>
+                        <a href="../clientes/nuevo.php" class="btn btn-danger text-white mx-3">Nuevo cliente</a>
 
 
                         <br>

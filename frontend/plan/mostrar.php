@@ -70,7 +70,7 @@ if (!isset($_SESSION['rol']) || $_SESSION['rol'] != 1) {
                             <p class="category">Nuevos planes reciente añadidos el dia de hoy</p>
                         </div>
                         <br>
-                        <a href="../plan/nuevo.php" class="btn btn-danger text-white">Nuevo plan</a>
+                        <a href="../plan/nuevo.php" class="btn btn-danger text-white mx-3">Nuevo plan</a>
                         <br>
                         <div class="card-content table-responsive">
                             <?php

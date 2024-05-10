@@ -69,7 +69,7 @@ if (!isset($_SESSION['rol']) || $_SESSION['rol'] != 1) {
                             <p class="category">Nuevos servicios reciente añadidos el dia de hoy</p>
                         </div>
                         <br>
-                        <a onclick="eliminar()" class="btn btn-primary text-white">Enviar Correos</a>
+                        <a onclick="eliminar()" class="btn btn-primary text-white mx-3">Enviar Correos</a>
                         <a href="../servicio/nuevo.php" class="btn btn-danger text-white">Nuevo servicio</a>
 
                         <br>
